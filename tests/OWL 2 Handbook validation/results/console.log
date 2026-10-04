@@ -1,0 +1,84 @@
+Note: RunOwlChecks.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Java: 17.0.20
+OWLAPI: The OWL API (version 4.5.29)
+HermiT: HermiT
+HermiT dependency artifact: 1.4.5.456
+pair_F_IF PASS
+pair_F_T PASS
+pair_F_S PASS
+pair_F_AS PASS
+pair_F_RF PASS
+pair_F_IR PASS
+pair_IF_T PASS
+pair_IF_S PASS
+pair_IF_AS PASS
+pair_IF_RF PASS
+pair_IF_IR PASS
+pair_T_S PASS
+pair_T_AS PASS
+pair_T_RF PASS
+pair_T_IR PASS
+pair_S_AS PASS
+pair_S_RF PASS
+pair_S_IR PASS
+pair_AS_RF PASS
+pair_AS_IR PASS
+pair_RF_IR PASS
+hier_F_A_to_B PASS
+hier_F_B_to_A PASS
+hier_IF_A_to_B PASS
+hier_IF_B_to_A PASS
+hier_T_A_to_B PASS
+hier_T_B_to_A PASS
+hier_S_A_to_B PASS
+hier_S_B_to_A PASS
+hier_AS_A_to_B PASS
+hier_AS_B_to_A PASS
+hier_RF_A_to_B PASS
+hier_RF_B_to_A PASS
+hier_IR_A_to_B PASS
+hier_IR_B_to_A PASS
+sym_child PASS
+sym_child_not_parent PASS
+sym_parent_not_child_pair PASS
+trans_child PASS
+trans_child_parent_pair PASS
+trans_parent_not_child_pair PASS
+asym_parent_negative PASS
+irreflexive_parent_self PASS
+functional_identity PASS
+functional_distinct PASS
+inverse_functional_identity PASS
+reflexive_child PASS
+sym_asym_empty PASS
+sym_asym_assertion PASS
+transitive_child_functional_parent PASS
+transitive_parent_asymmetric_child PASS
+chain_target_functional PASS
+chain_component_functional PASS
+Passed=53 failures=0
+Note: RunOwlChecks.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Java: 17.0.20
+OWLAPI: The OWL API (version 4.5.29)
+HermiT: HermiT
+HermiT dependency artifact: 1.4.5.456
+pair_F_IF_positive PASS
+pair_F_S_positive PASS
+pair_F_AS_positive PASS
+pair_F_RF_positive PASS
+pair_F_IR_positive PASS
+pair_IF_S_positive PASS
+pair_IF_AS_positive PASS
+pair_IF_RF_positive PASS
+pair_IF_IR_positive PASS
+pair_T_S_positive PASS
+pair_T_RF_positive PASS
+pair_S_AS_positive PASS
+pair_S_RF_positive PASS
+pair_S_IR_positive PASS
+pair_AS_RF_positive PASS
+pair_AS_IR_positive PASS
+pair_RF_IR_positive PASS
+Passed=17 failures=0

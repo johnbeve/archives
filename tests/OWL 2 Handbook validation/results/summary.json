@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "execution_completed_utc": "2026-10-04T02:59:04.256707+00:00",
+  "base_suite": {
+    "cases": 53,
+    "passed": 53,
+    "admissible": 47,
+    "outside_owl2_dl": 6,
+    "consistent": 42,
+    "inconsistent": 5,
+    "entailed_queries": 12,
+    "not_entailed_queries": 12
+  },
+  "supplementary_nonempty_suite": {
+    "cases": 17,
+    "passed": 17,
+    "admissible": 17,
+    "outside_owl2_dl": 0,
+    "consistent": 14,
+    "inconsistent": 3,
+    "entailed_queries": 0,
+    "not_entailed_queries": 0
+  },
+  "environment": {
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "java_version": "openjdk version \"17.0.20\" 2026-07-21\nOpenJDK Runtime Environment (build 17.0.20+8-1-24.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20+8-1-24.04-Ubuntu, mixed mode, sharing)",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "available_processors": 9,
+    "guest_memory": "MemTotal:       10206504 kB",
+    "cgroup_memory_limit_bytes": "8589934592",
+    "heap": "1 GiB",
+    "configuration": "HermiT factory defaults; no explicit precomputation"
+  },
+  "dependency": {
+    "url": "https://github.com/ontodev/robot/releases/download/v1.9.10/robot.jar",
+    "sha256": "16a73c074f3df359a7338a84b4e0788785fe06117f931bb9796e9619ea776105"
+  },
+  "source_sha256": {
+    "RunOwlChecks.java": "1e544a1f7aae8d6792db3f08130710c083cb9ca9df91a23e05102b71c531b001",
+    "run_turtle_checks.py": "6d64181ea5b920d7fbd6f92febb8a58dfc97a3a7063ac3ee9bdbef62f8960adf"
+  }
+}

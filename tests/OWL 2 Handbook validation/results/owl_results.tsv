@@ -1,0 +1,54 @@
+id	profile_actual	profile_expected	consistent	consistent_expected	entailment	entailment_expected	status	diagnostics
+pair_F_IF	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_F_T	false	false	SKIPPED	true	SKIPPED		PASS	[Use of non-simple property in functional axiom <https://example.org/owl2-reference#R> [FunctionalObjectProperty(<https://example.org/owl2-reference#R>) in OntologyID(Anonymous-5)]]
+pair_F_S	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_F_AS	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_F_RF	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_F_IR	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_IF_T	false	false	SKIPPED	true	SKIPPED		PASS	[Use of non-simple property in functional axiom <https://example.org/owl2-reference#R> [InverseFunctionalObjectProperty(<https://example.org/owl2-reference#R>) in OntologyID(Anonymous-20)]]
+pair_IF_S	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_IF_AS	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_IF_RF	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_IF_IR	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_T_S	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_T_AS	false	false	SKIPPED	true	SKIPPED		PASS	[Use of non-simple property in asymmetric object property axiom [AsymmetricObjectProperty(<https://example.org/owl2-reference#R>) in OntologyID(Anonymous-38)]]
+pair_T_RF	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_T_IR	false	false	SKIPPED	true	SKIPPED		PASS	[Use of non-simple property in irreflexive property axiom <https://example.org/owl2-reference#R> [IrreflexiveObjectProperty(<https://example.org/owl2-reference#R>) in OntologyID(Anonymous-44)]]
+pair_S_AS	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_S_RF	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_S_IR	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_AS_RF	true	true	false	false	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_AS_IR	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+pair_RF_IR	true	true	false	false	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+hier_F_A_to_B	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_F_B_to_A	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_IF_A_to_B	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_IF_B_to_A	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_T_A_to_B	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_T_B_to_A	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_S_A_to_B	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_S_B_to_A	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_AS_A_to_B	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_AS_B_to_A	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_RF_A_to_B	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_RF_B_to_A	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_IR_A_to_B	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+hier_IR_B_to_A	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+sym_child	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+sym_child_not_parent	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+sym_parent_not_child_pair	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+trans_child	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+trans_child_parent_pair	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+trans_parent_not_child_pair	true	true	true	true	false	false	PASS	[] reasoner=HermiT version=1.4.1.432
+asym_parent_negative	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+irreflexive_parent_self	true	true	false	false	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+functional_identity	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+functional_distinct	true	true	false	false	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+inverse_functional_identity	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+reflexive_child	true	true	true	true	true	true	PASS	[] reasoner=HermiT version=1.4.1.432
+sym_asym_empty	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+sym_asym_assertion	true	true	false	false	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+transitive_child_functional_parent	false	false	SKIPPED	true	SKIPPED		PASS	[Use of non-simple property in functional axiom <https://example.org/owl2-reference#A> [FunctionalObjectProperty(<https://example.org/owl2-reference#A>) in OntologyID(Anonymous-221)]]
+transitive_parent_asymmetric_child	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432
+chain_target_functional	false	false	SKIPPED	true	SKIPPED		PASS	[Use of non-simple property in functional axiom <https://example.org/owl2-reference#R> [FunctionalObjectProperty(<https://example.org/owl2-reference#R>) in OntologyID(Anonymous-227)]]
+chain_component_functional	true	true	true	true	SKIPPED		PASS	[] reasoner=HermiT version=1.4.1.432

@@ -1,0 +1,54 @@
+# id	file	profile_expected	consistent_expected	query_file	entailment_expected
+pair_F_IF	examples/pairwise/pair_F_IF.ttl	true	true		
+pair_F_T	examples/pairwise/pair_F_T.ttl	false	true		
+pair_F_S	examples/pairwise/pair_F_S.ttl	true	true		
+pair_F_AS	examples/pairwise/pair_F_AS.ttl	true	true		
+pair_F_RF	examples/pairwise/pair_F_RF.ttl	true	true		
+pair_F_IR	examples/pairwise/pair_F_IR.ttl	true	true		
+pair_IF_T	examples/pairwise/pair_IF_T.ttl	false	true		
+pair_IF_S	examples/pairwise/pair_IF_S.ttl	true	true		
+pair_IF_AS	examples/pairwise/pair_IF_AS.ttl	true	true		
+pair_IF_RF	examples/pairwise/pair_IF_RF.ttl	true	true		
+pair_IF_IR	examples/pairwise/pair_IF_IR.ttl	true	true		
+pair_T_S	examples/pairwise/pair_T_S.ttl	true	true		
+pair_T_AS	examples/pairwise/pair_T_AS.ttl	false	true		
+pair_T_RF	examples/pairwise/pair_T_RF.ttl	true	true		
+pair_T_IR	examples/pairwise/pair_T_IR.ttl	false	true		
+pair_S_AS	examples/pairwise/pair_S_AS.ttl	true	true		
+pair_S_RF	examples/pairwise/pair_S_RF.ttl	true	true		
+pair_S_IR	examples/pairwise/pair_S_IR.ttl	true	true		
+pair_AS_RF	examples/pairwise/pair_AS_RF.ttl	true	false		
+pair_AS_IR	examples/pairwise/pair_AS_IR.ttl	true	true		
+pair_RF_IR	examples/pairwise/pair_RF_IR.ttl	true	false		
+hier_F_A_to_B	examples/hierarchy/hier_F_A_to_B.ttl	true	true	queries/hier_F_A_to_B.ttl	true
+hier_F_B_to_A	examples/hierarchy/hier_F_B_to_A.ttl	true	true	queries/hier_F_B_to_A.ttl	false
+hier_IF_A_to_B	examples/hierarchy/hier_IF_A_to_B.ttl	true	true	queries/hier_IF_A_to_B.ttl	true
+hier_IF_B_to_A	examples/hierarchy/hier_IF_B_to_A.ttl	true	true	queries/hier_IF_B_to_A.ttl	false
+hier_T_A_to_B	examples/hierarchy/hier_T_A_to_B.ttl	true	true	queries/hier_T_A_to_B.ttl	false
+hier_T_B_to_A	examples/hierarchy/hier_T_B_to_A.ttl	true	true	queries/hier_T_B_to_A.ttl	false
+hier_S_A_to_B	examples/hierarchy/hier_S_A_to_B.ttl	true	true	queries/hier_S_A_to_B.ttl	false
+hier_S_B_to_A	examples/hierarchy/hier_S_B_to_A.ttl	true	true	queries/hier_S_B_to_A.ttl	false
+hier_AS_A_to_B	examples/hierarchy/hier_AS_A_to_B.ttl	true	true	queries/hier_AS_A_to_B.ttl	true
+hier_AS_B_to_A	examples/hierarchy/hier_AS_B_to_A.ttl	true	true	queries/hier_AS_B_to_A.ttl	false
+hier_RF_A_to_B	examples/hierarchy/hier_RF_A_to_B.ttl	true	true	queries/hier_RF_A_to_B.ttl	false
+hier_RF_B_to_A	examples/hierarchy/hier_RF_B_to_A.ttl	true	true	queries/hier_RF_B_to_A.ttl	true
+hier_IR_A_to_B	examples/hierarchy/hier_IR_A_to_B.ttl	true	true	queries/hier_IR_A_to_B.ttl	true
+hier_IR_B_to_A	examples/hierarchy/hier_IR_B_to_A.ttl	true	true	queries/hier_IR_B_to_A.ttl	false
+sym_child	examples/seeded/sym_child.ttl	true	true	queries/sym_child.ttl	true
+sym_child_not_parent	examples/seeded/sym_child_not_parent.ttl	true	true	queries/sym_child_not_parent.ttl	false
+sym_parent_not_child_pair	examples/seeded/sym_parent_not_child_pair.ttl	true	true	queries/sym_parent_not_child_pair.ttl	false
+trans_child	examples/seeded/trans_child.ttl	true	true	queries/trans_child.ttl	true
+trans_child_parent_pair	examples/seeded/trans_child_parent_pair.ttl	true	true	queries/trans_child_parent_pair.ttl	true
+trans_parent_not_child_pair	examples/seeded/trans_parent_not_child_pair.ttl	true	true	queries/trans_parent_not_child_pair.ttl	false
+asym_parent_negative	examples/seeded/asym_parent_negative.ttl	true	true	queries/asym_parent_negative.ttl	true
+irreflexive_parent_self	examples/seeded/irreflexive_parent_self.ttl	true	false		
+functional_identity	examples/seeded/functional_identity.ttl	true	true	queries/functional_identity.ttl	true
+functional_distinct	examples/seeded/functional_distinct.ttl	true	false		
+inverse_functional_identity	examples/seeded/inverse_functional_identity.ttl	true	true	queries/inverse_functional_identity.ttl	true
+reflexive_child	examples/seeded/reflexive_child.ttl	true	true	queries/reflexive_child.ttl	true
+sym_asym_empty	examples/seeded/sym_asym_empty.ttl	true	true		
+sym_asym_assertion	examples/seeded/sym_asym_assertion.ttl	true	false		
+transitive_child_functional_parent	examples/structural/transitive_child_functional_parent.ttl	false	true		
+transitive_parent_asymmetric_child	examples/structural/transitive_parent_asymmetric_child.ttl	true	true		
+chain_target_functional	examples/structural/chain_target_functional.ttl	false	true		
+chain_component_functional	examples/structural/chain_component_functional.ttl	true	true		
